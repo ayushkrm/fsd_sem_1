@@ -7,23 +7,27 @@
 </head>
 <body>
     <h1>My Form</h1>
-    <form>
-        <label>Name:</label>
-        <input type="text" name="name" placeholder="Your Name"required>
+    <form action="/register" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" name="name" placeholder="Your Name"  id="name" value="ayush" required minlength="3" maxlength="60">
         <br>
-        <label>Email:</label>
-        <input type="email" name="email" placeholder="Your Email">
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="Your Email" id="email" min="0" max="100" >
         <br>
-        <label>Password:</label>
-        <input type="password" name="password" placeholder="Your Password">
+        <label for="password">Password:</label>
+        <input type="password" name="password" placeholder="Your Password" required id="password">
         <br>
-        <label>Date of Birth:</label>
-        <input type="date" name="dob">
+        <label for="dob">Date of Birth:</label>
+        <input type="date" name="dob" id="dob">
         <br>
-        <label>
-            <input type="checkbox" name="terms"> I agree to the terms and conditions
+        <label for="color">Color:</label>
+        <input type="color" name="color" id="color">
+        <br>
+        <label for="terms">
+            <input type="checkbox" name="terms" id="terms"> I agree to the terms and conditions
         </label><br>
         <input type="submit" value="Submit">
+        <button type="reset">Reset</button>
     </form>
 </body>
 </html>

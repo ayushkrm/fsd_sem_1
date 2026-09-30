@@ -1,0 +1,16 @@
+*{
+    color: green;
+    margin: 0px;
+}
+
+h2{
+   color: red; 
+}
+div{
+    padding: 40px;
+    border: 4px solid brown;
+}
+
+.bg-black{
+    
+}

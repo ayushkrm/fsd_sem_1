@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#box1{
+    width: 100vw;
+    height: 250px;
+    background-color: brown;
+    padding: 48px;
+}
+
+#box2{
+    width: 100vw;
+    height: 250px;
+    background-color: yellow;
+    padding: 48px;
+}

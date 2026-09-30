@@ -1,0 +1,24 @@
+h1{
+    color:blanchedalmond;
+    background-color: darkslategray;
+}
+
+#middle{
+    color: red;
+    background-color: yellow;
+}
+span{
+    color: green; 
+    background-color: lightgray;
+}3
+
+p{
+    color: blue;
+    background-color: beige;
+    text-decoration: line-through;
+}
+
+.text{
+    background-color: black;
+}
+

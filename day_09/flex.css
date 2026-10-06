@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    padding: 24px;
+    background-color: yellowgreen;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 50px;
+    justify-content: center;
+
+}
+ div{
+    background-color: lightskyblue;
+    border: 4px solid brown;
+    height: 150px;
+    width: 150px;
+}

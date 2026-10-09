@@ -1,0 +1,18 @@
+/* div{
+    height: 300px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: red;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5orZKHzjGiFZxMLRx-yKn1Jcx2fyZ-WLOf4_t6Oli37RCH6q-MdywelqHuvAZdpHmFb2BW0WRZLcGmyTTXKNQz4XLoORiOYBQXGV6dp8&s=10);
+    background-size: cover;
+    background-position: center;
+
+} */
+div{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+

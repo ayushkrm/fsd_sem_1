@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 8px 12px;
+}
+nav{
+    display: none;
+    border: 1px;
+    background-color: lightgray;
+    /* display: flex; */
+    flex-direction: column;
+    gap: 12px;;
+    padding: 12px;
+    width: fit-content;
+    border-radius: 8px;
+
+    position: absolute;
+    /* z-index: -1; */
+    top:80px;
+}
+.mobile-btns{
+    display:none;
+}
+.menu-container{
+    height: 40px;
+    width: 40px;
+    background-color: chocolate;
+    border-radius: 50%;
+}
+.menu-container:hover nav{
+    cursor: grab;
+    background-color: yellowgreen;
+    display: flex;
+}
